@@ -49,8 +49,9 @@ padding:0% 0% 0% 5%;
     gap: 15px;
 }
 
-.med1 {
+.med {
     display: flex;
+ 
     justify-content:space-around;
     align-items:center;
        padding:5% 5% 0% 0%;
@@ -194,7 +195,7 @@ padding:0% 0% 0% 5%;
         gap: 15px;
     }
     
-    .med1 {
+    .med {
         display: flex;
         flex-direction:column;
        align-content: end;
@@ -202,7 +203,7 @@ padding:0% 0% 0% 5%;
     
     }
     
-    .med1 img {
+    .med img {
         height: 180px;
         border: solid chartreuse 1px;
         border-radius:50px;
@@ -210,31 +211,30 @@ padding:0% 0% 0% 5%;
        
     }
     
-    #d {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    
-    
-    }
-    
+  
     .med2 {
-        display: flex;
-        flex-direction: column;
- 
+    display: flex;
+        flex-direction:column;
+       align-items: center;
      
         
     
     }
-    
+
+        #d {
+     display: flex;
+        flex-direction:column;
+       align-items: center;
+             padding: 0px 5px 0px 5px;
+    }
     #d2{
          display: flex;
         flex-direction:column;
-        width:100%;
+   
         
     }
     .med2 img {
-        width: 290px;
+        width: 180px;
     
         border: solid #846f6f 1px;
         border-radius: 15px;
@@ -243,13 +243,10 @@ padding:0% 0% 0% 5%;
         display: flex;
         flex-direction:column;
        align-items: end;
-    }
-    #d {
-        display: flex;
-        flex-direction: column;
         
-         padding: 0px 59px 0px 5px;
     }
+ 
+    
     
     #z {
         text-align: ;
@@ -276,19 +273,19 @@ padding:0% 0% 0% 5%;
     
     .one{
         display:flex;
-    
+        padding-top:15px;
         flex-direction:column;
         align-items:center;
     }
     .two{
         display:flex;
-    
+      padding-top:15px;
         flex-direction:column;
         align-items:center;
     }
     .three{
         display:flex;
-    
+      padding-top:15px;
         flex-direction:column;
         align-items:center;
     }
